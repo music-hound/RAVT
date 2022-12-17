@@ -4,13 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="main.css">
+
+    <title>Автомобильный союз</title>
+    <style>
+        @font-face {
+            font-family: 'Gilroy';
+            src: url('fonts/Gilroy-Regular.woff2') format('woff2'),
+                url('fonts/Gilroy-Regular.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+            font-display:fallback;
+        }
+
+        @font-face {
+            font-family: 'Gilroy';
+            src: url('fonts/Gilroy-Medium.woff2') format('woff2'),
+                url('fonts/Gilroy-Medium.woff') format('woff');
+            font-weight: 500;
+            font-style: normal;
+            font-display:fallback;
+        }
+
+        @font-face {
+            font-family: 'Gilroy';
+            src: url('fonts/Gilroy-Semibold.woff2') format('woff2'),
+                url('fonts/Gilroy-Semibold.woff') format('woff');
+            font-weight: 600;
+            font-style: normal;
+            font-display:fallback;
+        }
+
+        @font-face {
+            font-family: 'Gilroy';
+            src: url('fonts/Gilroy-Bold.woff2') format('woff2'),
+                url('fonts/Gilroy-Bold.woff') format('woff');
+            font-weight: 700;
+            font-style: normal;
+            font-display:fallback;
+        }
+
+        @font-face {
+            font-family: 'Gilroy';
+            src: url('fonts/Gilroy-Black.woff2') format('woff2'),
+                url('fonts/Gilroy-Black.woff') format('woff');
+            font-weight: 900;
+            font-style: normal;
+            font-display:fallback;
+        }
+        *,
+        *;before,
+        *;after {box-sizing: border-box;}
+    </style>
+
 </head>
 <body>
-    <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-    </ul>
+    <header class="container">
+        <a href="#"><img alt="logo" src="img/logo.svg"></a>
+        <ul class="menu">
+            <li><a href="#" class="list_black">Каталог</a></li>
+            <li><a href="#" class="list_black">Замена стекла</a></li>
+            <li><a href="#" class="list_black">Ремонт стекла</a></li>
+            <li><a href="#" class="list_white">Гарантии</a></li>
+            <li><a href="#" class="list_white">Страховым компаниям</a></li>
+            <li><a href="#" class="list_white">Контакты</a></li>
+        </ul>
+        <a href="#" class="phone list_white">8(800)000000</a>
+
+
+
+    </header>
+    <main class="container">
+        <div class="left_side">
+            <img class="ravt" src="img/blue-letters.png">
+            <h1 class="mt70">Российский автосоюз</h1>
+            <div class="h3cont">
+                <h3 class="mt30">федеральная B2B-компания, которая объединяет в себе <a href="#">4 ключевых направления деятельности:</a></h3>
+            </div>
+            <div class="button mt50">
+                <a href="#"">Ознакомиться</a>
+            </div> 
+        </div>
+        <div class="right_side">
+           <div class="car mt250">
+               <img alt="bmw" src="img/bmw.png">
+           </div>
+           <div class="arrow">
+           </div>
+        </div>
+    </main>
+
 </body>
 </html>
