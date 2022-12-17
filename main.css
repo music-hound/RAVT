@@ -1,4 +1,139 @@
+.mt25{margin-top: 25px;}
+.mt30{margin-top: 30px;}
+.mt35{margin-top: 35px;}
+.mt50{margin-top: 50px;}
+.mt55{margin-top: 55px;}
+.mt70{margin-top: 70px;}
+.mt250{margin-top: 250px;}
+
+.ml40{margin-left: 40px;}
+
+
+body {
+	font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    background-image: url("img/mount.png");
+    background-repeat: no-repeat;
+    background-position: right 0px;
+    background-size: 960px ;
+}
+
+main {
+    display: flex;
+
+}
+
 .container {
     width: 1440px;
+    margin: 0 auto;    
+}
+
+header {
+	height: 130px;
+	display: flex;
+	width: 100%;
+	margin: 0 auto;
+    align-items: center;
+	justify-content: space-between;
+}
+
+.phone {
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.menu {
+    display:flex;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+	list-style: none;
+	margin-left: 40px;
+}
+
+.menu a {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.list_black {
+	color: #323232;
+	transition: 0.3s;
+}
+.list_black:hover {color: #1095BF;}
+
+.list_white {
+	color: #fff;
+	transition: 0.3s;
+}
+.list_white:hover {color: #EBB600;}
+
+.ravt {
+    margin-left: 24px;
+    margin-top: 145px;
+}
+
+main h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 42px;
+}
+
+main h3 {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.h3cont {
+    width: 562px;
+
+}
+
+main div a {
+    color: #1095BF;
+    transition: 0.3s;
+}
+main div a:hover {color: #EBB600;}
+
+.button {
+    background-color: #EBB600;
+    width: 250px;
+    height: 70px;
+    border-radius: 35px;
+    text-align: center;
+    transition: 0.5s;
+}
+.button:hover{box-shadow: -10px 10px 70px rgba(235, 182, 0, 0.25);}
+
+.button a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 70px;
+}
+.button a:hover{color: #1095BF}
+
+.arrow {
+    background-image: ;
+}
+
+.car {
     
+}
+
+.left_side {
+    width: 590px;
+}
+
+.right_side {
+    width: 850px;
 }
