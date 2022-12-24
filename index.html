@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    
     <link rel="stylesheet" href="main.css">
-
     <title>Автомобильный союз</title>
     <style>
         @font-face {
@@ -54,14 +54,12 @@
             font-style: normal;
             font-display:fallback;
         }
-        *,
-        *;before,
-        *;after {box-sizing: border-box;}
+
     </style>
 
 </head>
 <body>
-    <header class="container">
+    <header class="row">
         <a href="#"><img alt="logo" src="img/logo.svg"></a>
         <ul class="menu">
             <li><a href="#" class="list_black">Каталог</a></li>
@@ -76,25 +74,99 @@
 
 
     </header>
-    <main class="container">
-        <div class="left_side">
-            <img class="ravt" src="img/blue-letters.png">
-            <h1 class="mt70">Российский автосоюз</h1>
-            <div class="h3cont">
-                <h3 class="mt30">федеральная B2B-компания, которая объединяет в себе <a href="#">4 ключевых направления деятельности:</a></h3>
+    <main>
+        <div class="main_screen row">
+
+            <div class="left_side">
+                <img class="ravt" alt="ravt" src="img/blue-letters.png">
+
+                <div class="big_text mt70">
+                    Российский автосоюз
+                </div>
+
+                <div class="small_text_container">
+                    <div class="small_text mt30">
+                        федеральная B2B-компания, которая объединяет в себе <a href="#" class="text_link">4 ключевых направления деятельности:</a>
+                    </div>
+                </div>
+
+                <div class= "mt50">
+                    <div class="button">
+                        Ознакомиться
+                    </div>
+                </div> 
             </div>
-            <div class="button mt50">
-                <a href="#"">Ознакомиться</a>
-            </div> 
+
+            <div class="right_side">
+                <div class="mt250">
+                    <img alt="bmw" src="img/bmw.png">
+                </div>
+            
+            </div>
+
         </div>
-        <div class="right_side">
-           <div class="car mt250">
-               <img alt="bmw" src="img/bmw.png">
-           </div>
-           <div class="arrow">
-           </div>
+
+
+        <div class="slider">
         </div>
+
+
+        <div class="fos">
+
+            <div class="fos_small_row row">
+
+                <div class="fos_header">
+                    Заполните форму
+                </div>
+
+                <div class="fos_info">
+                    И наш специалист свяжется с Вами в самое ближайшее время
+                </div>
+
+                <div class="input_box mt40">
+                    <input class="input_item" type="text" name="name" placeholder="Ваше имя">
+                    <input class="input_item mt30" type="text" name="phone" placeholder="Телефон">
+                </div>
+
+                <div class="policy_button_cont mt70">
+            
+                    <div class="policy">
+                        Нажимая кнопку, вы даете согласие на обработку <a href="#" class="text_link">персональных данных.</a>
+                    </div>
+
+                    <div class="button ml40">
+                        Записаться
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="contants">
+
+        </div>
+
     </main>
+    <footer>
+        <div class="footer_set row">
+            <div class="footer_logo_img">        
+                <img src="img/footer_logo.svg">
+            </div>
+
+            <div class="footer_rights">
+                <a href="#"> © 2020 Равт | Все права защищены</a>
+            </div>
+
+            <div class="footer_policy">
+                Отправляя любую форму на сайте, вы соглашаетесь с <a href="#">политикой конфиденциальности</a> данного сайта.
+            </div>
+        </div>
+
+    </footer>
+    <div class="arrow">
+    </div>
 
 </body>
 </html>
