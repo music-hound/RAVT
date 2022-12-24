@@ -1,36 +1,32 @@
+.mt20{margin-top: 20px;}
 .mt25{margin-top: 25px;}
 .mt30{margin-top: 30px;}
 .mt35{margin-top: 35px;}
+.mt40{margin-top: 40px;}
 .mt50{margin-top: 50px;}
 .mt55{margin-top: 55px;}
 .mt70{margin-top: 70px;}
 .mt250{margin-top: 250px;}
+.mt268{margin-top: 268px;}
 
 .ml40{margin-left: 40px;}
-
 
 body {
 	font-family: Gilroy;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    margin: 0;
-    padding: 0;
     background-image: url("img/mount.png");
     background-repeat: no-repeat;
     background-position: right 0px;
     background-size: 960px ;
 }
 
-main {
-    display: flex;
-
-}
-
-.container {
+.row {
     width: 1440px;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
+/*-----------------------------------------*/
 
 header {
 	height: 130px;
@@ -75,65 +71,215 @@ header {
 }
 .list_white:hover {color: #EBB600;}
 
+/*-----------------------------------------*/
+
+main {
+}
+
+/*-----------------------------------------*/
+
+.main_screen {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left_side {
+    width: 600px;
+}
+
+.right_side {
+    width: 810px;
+}
+
 .ravt {
     margin-left: 24px;
     margin-top: 145px;
 }
 
-main h1 {
-    margin: 0;
+.big_text {
     font-weight: 600;
     font-size: 42px;
 }
 
-main h3 {
-    margin: 0px;
+.small_text {
     font-weight: 400;
     font-size: 24px;
 }
 
-.h3cont {
+.small_text_container {
     width: 562px;
-
 }
 
-main div a {
+.text_link {
     color: #1095BF;
     transition: 0.3s;
 }
-main div a:hover {color: #EBB600;}
+.text_link:hover {color: #ebb600;}
 
 .button {
-    background-color: #EBB600;
+    background: #EBB600;
     width: 250px;
     height: 70px;
     border-radius: 35px;
     text-align: center;
-    transition: 0.5s;
-}
-.button:hover{box-shadow: -10px 10px 70px rgba(235, 182, 0, 0.25);}
-
-.button a {
+    transition: 0.3s;
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
     color: #fff;
     line-height: 70px;
+    cursor: pointer;
 }
-.button a:hover{color: #1095BF}
+.button:hover{background: #1095BF;}
 
 .arrow {
-    background-image: ;
+    position: fixed;
+    background: url(img/arrow.svg)no-repeat;
+    cursor: pointer;
+    bottom: 4%;
+    right: 3%;
+    width: 66px;
+    height: 66px;
+    transition: 0.3s;
+    z-index: 5;
 }
 
-.car {
+.arrow:hover{opacity: 50%;}
+
+/*-----------------------------------------*/
+
+.slider {
+    width: 1440px;
+    height: 600px;
+}
+
+/*-----------------------------------------*/
+.fos {
+    width: 100%;
+    height: 668px;
+    background-image: url(img/mountains.png);
+    background-repeat: no-repeat;
     
 }
 
-.left_side {
-    width: 590px;
+.fos_small_row {
+    align-self: flex-start;
 }
 
-.right_side {
-    width: 850px;
+.fos_header {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 74px;
+
 }
+
+.fos_info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 20px;
+    width: inherit;
+}
+
+.input {
+    color: #929292;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 150%;
+    width: inherit;
+}
+
+.input_item {
+    font-family: 'Gilroy';
+    display: block;
+    height: 40px;
+    width: 45%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #676767 ;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.input_item::placeholder {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-shadow:none;
+    color: #5B5B5B;
+    transition: 0.3s;
+}
+.input_item:focus {outline: none;}
+
+.input_item:focus::placeholder {
+    /* opacity: 0; */
+    transform: translateY(50px);
+}
+
+.policy_button_cont {
+    display: flex;
+    align-items: center;
+
+}
+
+.policy {
+    max-width: 360px;
+    font-size: 14px;
+    line-height: 125%;
+    width: 360px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    border-top: 1px solid #dcdcdc;
+}
+
+.footer_set {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 155px;
+
+}
+
+.footer_logo_img {
+    width: 350px;
+}
+
+
+.footer_rights a {
+    font-weight: 400;
+    font-size: 14px;    
+    line-height: 17px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+}
+.footer_rights a:hover {color: #ebb600;}
+
+.footer_policy {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    width: 350px;
+    text-align: right;
+}
+
+.footer_policy a {
+    color: #000;
+    transition: 0.3s;
+}
+.footer_policy a:hover {color: #ebb600;}
