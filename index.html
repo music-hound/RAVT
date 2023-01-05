@@ -286,8 +286,43 @@
     </footer>
     <div class="arrow">
     </div>
+
+    <div class="popup">
+        <div class="popup_main">
+            <div class="popup_close">
+            </div>
+            <div class="popup_block">
+                <div class="popup_title">
+                    Записаться
+                </div>
+                <div class="popup_block_form">
+                    <input class="popup_input_item" type="text" id="name" required>
+                    <label for="name" class="popup_block_label">Ваше имя</label>
+                </div>
+                <div class="popup_block_form">
+                    <input class="popup_input_item" type="tel" id="phone" required>
+                    <label for="phone" class="popup_block_label">Телефон</label>
+                </div>
+                <div class="popup_block_form">
+                    <textarea class="popup_textarea" id="message" rows="4" required></textarea>
+                    <label for="message" class="popup_block_label">Сообщение</label>
+                </div> 
+
+                <div class="popup_check mt25">
+                    <input id="policy" type="checkbox" checked>
+                    <label for="policy">
+                        Отправляя любую форму на сайте, вы соглашаетесь с <a href='#'>политикой конфиденциальности</a> данного сайта.
+                    </label>
+                </div> 
+
+                <div class="button mt40">Отправить</div>
+            </div>
+        </div>
+    </div>
+
     <script src="js/jquery-3.6.3.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
