@@ -1,0 +1,11 @@
+@media (max-width: 1500px) {
+    .row {
+        max-width: 1200px;
+    }
+    .bmw {
+        right: -43%;
+    }
+    .bmw img {
+        width: 80%;
+     }
+}
