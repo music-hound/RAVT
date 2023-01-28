@@ -20,11 +20,13 @@ body {
     background-image: url("img/mount.png");
     background-repeat: no-repeat;
     background-position: right 0px;
-    background-size: 960px ;
+    background-size: 50%;
+    margin: 0;
 }
 
 .row {
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     margin: 0 auto;
 }
 /*-----------------------------------------*/
@@ -78,12 +80,23 @@ header {
 }
 
 .left_side {
-    width: 600px;
+    max-width: 600px;
 }
 
 .right_side {
-    width: 810px;
+    width: 50%;
+    /* max-width: 73%; */
+    position: relative;
 }
+ .bmw {
+    position: absolute;
+    top: 0px;
+    right: -23%;
+ }
+
+ .bmw img {
+    width: inherit;
+ }
 
 .ravt {
     margin-left: 24px;
@@ -101,7 +114,7 @@ header {
 }
 
 .small_text_container {
-    width: 562px;
+    max-width: 562px;
 }
 
 .text_link {
@@ -109,6 +122,12 @@ header {
     transition: 0.3s;
 }
 .text_link:hover {color: #ebb600;}
+
+.policy_link {
+    color: #1095BF;
+    transition: 0.3s;
+}
+.policy_link:hover {color: #ebb600;}
 
 .button {
     background: #EBB600;
@@ -132,14 +151,19 @@ header {
     position: fixed;
     background: url(img/arrow.svg)no-repeat;
     cursor: pointer;
-    bottom: 4%;
-    right: 3%;
+    bottom: 8.5%;
+    right: 2%;
     width: 66px;
     height: 66px;
     transition: 0.3s;
     z-index: 5;
+    display: none;
 }
 .arrow:hover{opacity: 50%;}
+.arrow_visible {
+    display: block;
+    transition: 0.3s;
+}
 
 .slider_item1 {
     background-image: url("img/slider_background.png");
@@ -180,7 +204,7 @@ header {
 }
 
 .slider_small_text {
-    width: 640px;
+    max-width: 640px;
     font-weight: 400;
     font-size: 18px;
     line-height: 135%;
@@ -235,6 +259,8 @@ header {
     height: 540px;
     background-image: url(img/mountains.png);
     background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
     padding-top: 128px;
     
 }
@@ -381,7 +407,7 @@ footer {
 }
 
 .footer_logo_img {
-    width: 350px;
+    max-width: 350px;
 }
 
 
@@ -471,7 +497,7 @@ footer {
 
 .popup_block {
     margin: 0 auto;
-    width: 368px;
+    max-width: 368px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -566,3 +592,86 @@ footer {
 }
 .popup_check label a:hover{color: #000;}
 
+.conf-policy {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1100;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	background: rgb(0 0 0 / 70%);
+
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+}
+
+.conf-policy-visible {
+	display: flex;
+}
+
+.conf-main {
+	background: #fff;
+	width: 80%;
+	height: 80%;
+	position: relative;
+	padding-bottom: 30px;
+	border-radius: 5px;
+}
+
+.conf-close {
+	z-index: 1200;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.conf-close path {
+	fill: #1095BF;
+	transition: 0.3s;
+}
+
+.conf-close:hover,
+.conf-close:hover path {
+	fill: #ebb600;
+}
+
+.conf-block {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	overflow-y: auto;
+	height: 94%;
+	padding:30px 45px 0 30px;
+	margin-top: 12px;
+}
+
+.conf-block-h2 {
+	font-size: 26px;
+	font-weight: 600;
+	color: #28292e;
+}
+
+.conf-block p {
+	font-size: 16px;
+	color: #28292e;
+}
+
+.conf-block a {
+	color: #28292e;
+	transition: 0.3s;
+}
+
+.conf-block a:hover {
+	color: #facd88;
+}
