@@ -2,10 +2,139 @@
     .row {
         max-width: 1200px;
     }
-    .bmw {
-        right: -43%;
+    .menu li {
+        margin-left: 28px;
     }
-    .bmw img {
-        width: 80%;
-     }
+    .slider_text,
+    .big_text {
+        font-size: 32px;
+        margin-top: 60px;
+    }
+    .slider_small_text,
+    .small_text {
+        font-size: 21px;
+    }
+    .left_side {
+        max-width: 480px;
+    }
+    .ravt {
+        margin-top: 70px;
+    }
+
+}
+
+@media (max-width: 1300px) {
+    .row {
+        max-width: 1000px;
+    }
+    .menu li {
+        margin-left: 28px;
+        font-size: 14px;
+    }
+    .menu a {
+        font-size: 14px;
+    }
+    header img {
+        width: 130px;
+    }
+    .phone {
+        font-size: 20px;
+    }
+    .ravt {
+        width: 90%;
+        margin-top: 45px;
+    }
+    .left_side {
+        max-width: 420px;
+    }
+    .slider_title {
+        margin-top: 120px;
+    }
+    .slider_item1,
+    .slider_item2,
+    .slider_item3 {
+        height: 700px;
+    }
+    .slider_small_text {
+        width: 50%;
+    }
+    .fos {
+        padding-top: 50px;
+    }
+    .policy {
+        max-width: 360px;
+        font-size: 14px;
+        line-height: 125%;
+        width: 250px;
+    }
+    .contacts {
+        height: 550px;
+    }
+    .contacts_title {
+        margin-top: 35px;
+    }
+    .arrow {
+        width: 56px;
+        height: 56px;
+    }
+}
+@media (max-width: 1100px) {
+    .mt50{margin: 30px 0 0 0;}
+    .row {
+        max-width: 800px;
+    }
+    .menu a {
+        font-size: 12px;
+    }
+    .menu li {
+        margin-left: 14px;
+    }
+    .phone {
+        font-size: 16px;
+    }
+    header img {
+        width: 113px;
+    }
+    .left_side {
+        max-width: 330px;
+    }
+    .ravt {
+        margin-top: 25px;
+    }
+    .slider_text,
+    .big_text {
+        font-size: 26px;
+        margin-top: 50px;
+    }
+    .slider_small_text,
+    .small_text {
+        font-size: 14px;
+        margin-top: 20px;
+        line-height: 18px;
+    }
+    .button {
+        width: 200px;
+        height: 50px;
+        font-size: 14px;
+        border-radius: 25px;
+    }
+    header {
+        height: 100px;
+    }
+    .arrow {
+        width: 46px;
+        height: 46px;
+    }
+    .slider_nav_right,
+    .slider_nav_left {
+        width: 50px;
+        height: 50px;
+    }
+    .slider_title {
+        font-size: 50px;
+        margin-top: 100px;
+    }
+    .slider_item1, .slider_item2, .slider_item3 {
+        height: 600px;
+    }
 }

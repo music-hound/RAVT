@@ -20,7 +20,7 @@ body {
     background-image: url("img/mount.png");
     background-repeat: no-repeat;
     background-position: right 0px;
-    background-size: 50%;
+    background-size: 57%;
     margin: 0;
 }
 
@@ -80,22 +80,22 @@ header {
 }
 
 .left_side {
+    width: 100%;
     max-width: 600px;
 }
 
 .right_side {
     width: 50%;
-    /* max-width: 73%; */
     position: relative;
 }
- .bmw {
+.bmw {
     position: absolute;
     top: 0px;
     right: -23%;
  }
 
- .bmw img {
-    width: inherit;
+.bmw img {
+    width: 500px;
  }
 
 .ravt {
@@ -144,12 +144,14 @@ header {
     cursor: pointer;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .button:hover{background: #1095BF;}
 
 .arrow {
     position: fixed;
     background: url(img/arrow.svg)no-repeat;
+    background-size: cover;
     cursor: pointer;
     bottom: 8.5%;
     right: 2%;
@@ -169,7 +171,7 @@ header {
     background-image: url("img/slider_background.png");
     background-repeat: no-repeat;
     background-position: right 0% center;
-    background-size: 1440px ;
+    background-size: 100% ;
     height: 910px;
 }
 
@@ -177,7 +179,7 @@ header {
     background-image: url("img/slider_background.png");
     background-repeat: no-repeat;
     background-position: right 0% center;
-    background-size: 1440px ;
+    background-size: 100% ;
     height: 910px;
 }
 
@@ -185,7 +187,7 @@ header {
     background-image: url("img/slider_background.png");
     background-repeat: no-repeat;
     background-position: right 0% center;
-    background-size: 1440px ;
+    background-size: 100% ;
     height: 910px;
 }
 
