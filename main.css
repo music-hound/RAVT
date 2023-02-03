@@ -319,7 +319,6 @@ header {
 .input_item:focus {outline: none;}
 
 .input_item:focus::placeholder {
-    /* opacity: 0; */
     transform: translateY(50px);
 }
 
@@ -341,8 +340,14 @@ header {
     display: flex;
 }
 
-.yamap {
+.yamap550,
+.yamap400,
+.yamap300 {
     width: 50%;
+}
+.yamap400,
+.yamap300 {
+    display: none;
 }
 
 .contacts_info {

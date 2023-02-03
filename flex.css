@@ -130,11 +130,205 @@
         width: 50px;
         height: 50px;
     }
+    .fos_header,
     .slider_title {
-        font-size: 50px;
-        margin-top: 100px;
+        font-size: 40px;
     }
-    .slider_item1, .slider_item2, .slider_item3 {
-        height: 600px;
+    .mt70 {
+        margin-top: 50px;
     }
+    .mt30 {
+        margin-top: 20px;
+    }
+    .fos_info {
+        font-size: 14px;
+    }
+    .input_item::placeholder {
+        font-size: 14px;
+    }
+    .ml40 {
+        margin-left: 10px;
+    }
+    .fos {
+        height: 450px;
+    }
+    .contacts_title {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .yamap550 {
+        display: none;
+    }
+    .yamap400 {
+        display: flex;
+    }
+    .contacts {
+        height: 400px;
+    }
+    .contacts_adress {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .contacts_reference {
+        margin-top: 20px;
+    }
+    .contacts_email {
+        font-size: 14px;
+    }
+    .footer_rights a {
+        font-size: 12px;
+    }
+    .footer_policy {
+        max-width: 300px;
+        font-size: 12px;
+    }
+    .footer_logo_img img {
+        max-width: 200px;
+    }
+    .footer_set {
+        height: 95px;
+    }
+}
+@media (max-width: 850px) {
+    .row {
+        max-width: 700px;
+    }
+    .menu a {
+        font-size: 11px;
+    }
+    .menu li {
+        margin-left: 14px;
+    }
+    .phone {
+        font-size: 14px;
+    }
+    header img {
+        width: 98px;
+    }
+    .left_side {
+        max-width: 290px;
+    }
+    .mt70 {
+        margin-top: 30px;
+    }
+    .mt30 {
+        margin-top: 10px;
+    }
+    .slider_small_text, 
+    .small_text {
+    font-size: 11px;
+    line-height: 14px;
+    }
+    .button {
+        width: 150px;
+        height: 40px;
+        font-size: 11px;
+    }
+    .slider_nav_right,
+    .slider_nav_left {
+        width: 40px;
+        height: 40px;
+    }
+    .fos_header, .slider_title {
+        font-size: 26px;
+    }
+    .slider_text, .big_text {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .slider_small_text, .small_text {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .slider_small_text, .small_text {
+        margin-top: 7px;
+    }
+    .slider_title {
+        margin-top: 40px;
+    }
+    .slider_item1,
+    .slider_item2,
+    .slider_item3 {
+        height: 400px;
+    }
+    .fos {
+        padding-top: 30px;
+        height: 360px;
+    }
+    .fos_header {
+        line-height: 44px;
+    }
+    .contacts_title {
+        font-size: 26px;
+        margin-top: 20px;
+        line-height: 35px;
+
+    }
+    .yamap400 {
+        display: none;
+    }
+    .yamap300 {
+        display: flex;
+    }
+    .contacts {
+        height: 300px;
+    }
+    .contacts_info {
+        margin-left: 30px;
+    }
+    .fos_info {
+        font-size: 11px;
+    }
+    .policy {
+        font-size: 11px;
+        width: 220px;
+    }
+    .input_item::placeholder {
+        font-size: 11px;
+    }
+    .contacts_adress {
+        margin-top: 10px;
+        font-size: 11px;
+    }
+    .contacts_email {
+        margin: 0;
+        font-size: 11px;
+    }
+    .contacts_ref_item {
+        font-size: 13px;
+    }
+    .mt40 {
+        margin-top: 15px;
+    }
+    .contacts_reference {
+        margin-top: 15px;
+    }
+    .footer_rights a {
+        font-size: 11px;
+    }
+    .footer_policy {
+        max-width: 200px;
+        font-size: 11px;
+    }
+}
+@media (max-width: 720px) {
+    .row {
+        max-width: 600px;
+    }
+    body {
+        background: none;
+    }
+    header {
+        justify-content: center;
+    }
+    .menu {
+        display: none;
+    }
+    .phone {
+        display: none;
+    }
+    .right_side {
+        display: none;
+    }
+
 }
