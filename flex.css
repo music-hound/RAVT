@@ -118,7 +118,7 @@
         font-size: 14px;
         border-radius: 25px;
     }
-    header {
+    .hdrow {
         height: 100px;
     }
     .arrow {
@@ -204,6 +204,7 @@
     }
     header img {
         width: 98px;
+        transform: translateY(5px);
     }
     .left_side {
         max-width: 290px;
@@ -315,11 +316,14 @@
     .row {
         max-width: 600px;
     }
+    .hdrow {
+        height: 80px;
+    }
     body {
         background: none;
     }
     header {
-        justify-content: center;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 40%);
     }
     .menu {
         display: none;
@@ -327,8 +331,101 @@
     .phone {
         display: none;
     }
+    .left_side {
+        max-width: 360px;
+    }
     .right_side {
         display: none;
+    }
+    .main_screen {
+        justify-content: space-evenly;
+    }
+    .slider_title{
+        text-align: center;
+    }
+    .small_text,
+    .slider_small_text {
+        text-align: center;
+    }
+    .slider_text, 
+    .big_text {
+        display: flex;
+        justify-content: center;
+    }
+    .sliderbg_left {
+        display: none;
+    }
+    .sliderbg_right {
+        opacity: 0.2;
+        width: 100%;
+        right: 50%;
+        top: 0%;
+        transform: translateX(50%);
+        z-index: -1;
+    }
+    .slider_nav {
+        display: flex;
+        justify-content: center;
+    }
+    .slider_small_text {
+        margin: 0 auto;
+    }
+    .slider_item1, .slider_item2, .slider_item3 {
+        height: 340px;
+    }
+    .slider_dots {
+        bottom: 20px;
+    }
+    .ravt {
+        margin-top: 70px;
+    }
+    .burger {
+        display: flex;
+        z-index: 40;
+        position: absolute;
+        top: 16px;
+        right: 60px;
+    }
+    .menu-mobile {
+        position: fixed;
+        width: 50%;
+        z-index: 30;
+        transform: translateX(-120%);
+        height: 100%;
+        background: rgba(255,255,255, 1);
+        transition: 0.5s;
+        display: flex;
+        box-shadow: 0px 0px 8px rgb(0 0 0 / 50%);
+    }
+    .menu-mobile_visible {
+        transform: translateX(0);
+    }
+    header {
+    position: fixed;
+	top: 0;
+	z-index: 35;
+    background: #fff;
+	height: 80px;
+	display: flex;
+	width: 100%;
+	margin: 0 auto;
+    align-items: center;
+	justify-content: space-between;
+    }
+    .hdrow {
+        background: #fff;
+    }
+    #button-1 {
+        width: 100%;
+    }
+    .policy_button_cont {
+        display: block;
+    }
+    #button-2 {
+        margin-top: 20px;
+    }
+    .fos {
+        background-image: url(img/mountains_blur.png);
     }
 
 }

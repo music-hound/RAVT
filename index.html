@@ -65,21 +65,36 @@
 
 </head>
 <body>
-    <header class="row">
-        <a href="#"><img alt="logo" src="img/logo.svg"></a>
-        <ul class="menu">
-            <li><a href="#" id="catalogue" class="list_black">Каталог</a></li>
-            <li><a href="#" id="windsheild_replacement" class="list_black">Замена стекла</a></li>
-            <li><a href="#" id="windsheild_repair" class="list_black">Ремонт стекла</a></li>
-            <li><a href="#" id="guaranty" class="list_white">Гарантии</a></li>
-            <li><a href="#" id="insurance_companies" class="list_white">Страховым компаниям</a></li>
-            <li><a href="#" id="contacts_id" class="list_white">Контакты</a></li>
-        </ul>
-        <a href="tel:8800000000" class="phone list_white">8(800)000000</a>
-
-
-
+    <header>
+        <div class="row">
+            <div class="hdrow">
+                <a href="#"><img alt="logo" src="img/logo.svg"></a>
+                <ul class="menu">
+                    <li><a href="#" id="catalogue" class="list_black">Каталог</a></li>
+                    <li><a href="#" id="windsheild_replacement" class="list_black">Замена стекла</a></li>
+                    <li><a href="#" id="windsheild_repair" class="list_black">Ремонт стекла</a></li>
+                    <li><a href="#" id="guaranty" class="list_white">Гарантии</a></li>
+                    <li><a href="#" id="insurance_companies" class="list_white">Страховым компаниям</a></li>
+                    <li><a href="#" id="contacts_id" class="list_white">Контакты</a></li>
+                </ul>
+                <a href="tel:8800000000" class="phone list_white">8(800)000000</a>        
+            </div>
+        </div>
+        <div class="burger">
+            <img src="img/buger_mobile.svg">
+        </div>
     </header>
+    
+    <div class="menu-mobile">
+        <ul class="mob-nav row">
+                    <li><a href="#" id="catalogue" class="mob-nav_item">Каталог</a></li>
+                    <li><a href="#" id="windsheild_replacement" class="mob-nav_item">Замена стекла</a></li>
+                    <li><a href="#" id="windsheild_repair" class="mob-nav_item">Ремонт стекла</a></li>
+                    <li><a href="#" id="guaranty" class="mob-nav_item">Гарантии</a></li>
+                    <li><a href="#" id="insurance_companies" class="mob-nav_item">Страховым компаниям</a></li>
+                    <li><a href="#" id="contacts_id" class="mob-nav_item">Контакты</a></li>
+        </ul>
+    </div>
     <main>
         <div class="main_screen row">
 
@@ -97,7 +112,7 @@
                 </div>
 
                 <div class= "mt50">
-                    <div class="button">
+                    <div class="button" id="button-1">
                         Ознакомиться
                     </div>
                 </div> 
@@ -115,6 +130,8 @@
         <div class="slider row" id="slider_start">
 
             <div class="slider_item1">
+                <div class="sliderbg_left"><img src="img/slider_ravt.svg" alt="slider_ravt"></div>
+                <div class="sliderbg_right"><img src="img/slider_car.png" alt="slider_car"></div>
                 <div class="slider_title">
                     Наши услуги
                 </div>
@@ -140,6 +157,8 @@
             </div>
 
             <div class="slider_item2">
+                <div class="sliderbg_left"><img src="img/slider_ravt.svg" alt="slider_ravt"></div>
+                <div class="sliderbg_right"><img src="img/slider_car.png" alt="slider_car"></div>
                 <div class="slider_title">
                     Наши услуги
                 </div>
@@ -165,6 +184,8 @@
             </div>
 
             <div class="slider_item3">
+                <div class="sliderbg_left"><img src="img/slider_ravt.svg" alt="slider_ravt"></div>
+                <div class="sliderbg_right"><img src="img/slider_car.png" alt="slider_car"></div>
                 <div class="slider_title">
                     Наши услуги
                 </div>
@@ -214,7 +235,7 @@
                         Нажимая кнопку, вы даете согласие на обработку <a href="#" class="policy_link policy_click">персональных данных.</a>
                     </div>
 
-                    <div class="button ml40">
+                    <div class="button ml40" id="button-2">
                         Записаться
                     </div>
 

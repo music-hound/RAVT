@@ -32,7 +32,7 @@ $(window).scroll(function(){
     }
 });
 
-// скролл наверх понажатии на стрелку
+// скролл наверх по нажатии на стрелку
 $('.arrow').on('click', function() {
   $("html, body").animate({scrollTop:0},600);
   return false;
@@ -102,3 +102,39 @@ $(document).click(function(e){
 if ($(e.target).is('.conf-policy'))
 $('.conf-policy').removeClass('conf-policy-visible')
 })
+
+$('.burger').on('click', function(){
+  if($('.menu-mobile').hasClass('menu-mobile_visible')){
+      $('.menu-mobile').removeClass('menu-mobile_visible');
+  }   else {
+          $('.menu-mobile').addClass('menu-mobile_visible');
+  }
+});
+
+// menu-mobile закрывается при нажатии в области за ее пределами
+$('.menu-mobile')
+  .click(function(){
+    $('.menu-mobile').removeClass('menu-mobile_visible')
+  })
+  .children()
+  .click(function(e){
+    e.stopPropagation();
+  });
+
+  // header background (появляется/исчезает) при скролле вниз-вверх
+$(window).scroll(function(){
+  if($(this) .scrollTop() > 50){
+      $('.hdrow').addClass('hdrowbg');
+  } else {
+      $('.hdrow').removeClass('hdrowbg');
+    }
+});
+
+  // header background (появляется/исчезает) при скролле вниз-вверх
+  $(window).scroll(function(){
+    if($(this) .scrollTop() > 50){
+        $('.list_white').addClass('list_white_bg');
+    } else {
+        $('.list_white').removeClass('list_white_bg');
+      }
+  });
