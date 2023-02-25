@@ -374,7 +374,7 @@
         justify-content: center;
     }
     .slider_small_text {
-        margin: 0 auto;
+        margin: 30px auto;
     }
     .slider_item1, .slider_item2, .slider_item3 {
         height: 600px;
@@ -437,6 +437,16 @@
         height: 60px;
         border-radius: 30px;
         font-size: 20px;
+        width: 50%;
+    }
+    .fos_header, 
+    .slider_title {
+        font-size: 38px;
+    }
+    .slider_nav_left,
+    .slider_nav_right {
+        width: 60px;
+        height: 60px;
     }
 
 }
