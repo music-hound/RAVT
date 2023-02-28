@@ -432,6 +432,10 @@
     }
     .fos {
         background-image: url(img/mountains_blur.png);
+        background-position: right;
+        background-size: 160%;
+        height: 450px;
+        padding-top: 80px;
     }
     .button {
         height: 60px;
@@ -448,5 +452,46 @@
         width: 60px;
         height: 60px;
     }
+    .policy {
+        width: 100%;
+        max-width: 460px;
+        font-size: 20px;
+    }
+    .fos_info {
+        font-size: 20px;
+    }
+    .input_item::placeholder {
+        font-size: 18px;
+    }
+    .input_item {
+        width: 100%;
+    }
+    .footer_set {
+        flex-direction: column;
+    }
+    .footer_logo_img img {
+        max-width: 290px;
+        margin-top: 50px;
+    }
+    .footer_rights {
+        margin-top: 40px;
+        font-size: 16px;
+    }
+    .footer_policy {
+        max-width: 400px;
+        font-size: 16px;
+        margin-top: 30px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .contacts {
+        height: 600px;
+        display: block;
+    }
+    .yamap300 {
+        width: 100%;
+    }
+
+        
 
 }
