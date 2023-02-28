@@ -425,7 +425,8 @@
         width: 100%;
     }
     .policy_button_cont {
-        display: block;
+        flex-direction: column;
+        text-align: center;
     }
     #button-2 {
         margin-top: 20px;
@@ -446,6 +447,7 @@
     .fos_header, 
     .slider_title {
         font-size: 38px;
+        text-align: center;
     }
     .slider_nav_left,
     .slider_nav_right {
@@ -459,6 +461,7 @@
     }
     .fos_info {
         font-size: 20px;
+        text-align: center;
     }
     .input_item::placeholder {
         font-size: 18px;
@@ -477,6 +480,9 @@
         margin-top: 40px;
         font-size: 16px;
     }
+    .footer_rights a {
+        font-size: 16px;
+    }
     .footer_policy {
         max-width: 400px;
         font-size: 16px;
@@ -485,11 +491,31 @@
         padding-bottom: 30px;
     }
     .contacts {
-        height: 600px;
+        height: 1000px;
         display: block;
     }
-    .yamap300 {
+    .yamap300{
+        display: none;
+    }
+    .yamap550 {
+        display: flex;
         width: 100%;
+    }
+    .contacts_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts_title {
+        margin-top: 70px;
+        font-size: 38px;
+    }
+    .contacts_adress,
+    .contacts_email,
+    .contacts_reference,
+    .contacts_ref_item {
+        margin-top: 20px;
+        font-size: 20px;
     }
 
         
