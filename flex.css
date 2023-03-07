@@ -2,6 +2,9 @@
     .row {
         max-width: 1200px;
     }
+    .hdrow {
+        max-width: 1200px;
+    }
     .menu li {
         margin-left: 28px;
     }
@@ -25,6 +28,9 @@
 
 @media (max-width: 1300px) {
     .row {
+        max-width: 1000px;
+    }
+    .hdrow {
         max-width: 1000px;
     }
     .menu li {
@@ -81,6 +87,9 @@
 @media (max-width: 1100px) {
     .mt50{margin: 30px 0 0 0;}
     .row {
+        max-width: 800px;
+    }
+    .hdrow {
         max-width: 800px;
     }
     .menu a {
@@ -193,6 +202,9 @@
     .row {
         max-width: 700px;
     }
+    .hdrow {
+        max-width: 700px;
+    }
     .menu a {
         font-size: 11px;
     }
@@ -299,7 +311,7 @@
         font-size: 13px;
     }
     .mt40 {
-        margin-top: 15px;
+        margin-top: 25px;
     }
     .contacts_reference {
         margin-top: 15px;
@@ -317,6 +329,7 @@
         max-width: 600px;
     }
     .hdrow {
+        max-width: 600px;
         height: 80px;
     }
     body {
@@ -485,7 +498,7 @@
     }
     .footer_policy {
         max-width: 400px;
-        font-size: 16px;
+        font-size: 12px;
         margin-top: 30px;
         text-align: center;
         padding-bottom: 30px;
@@ -518,6 +531,57 @@
         font-size: 20px;
     }
 
-        
+@media (max-width: 630px) {
+    .row {
+        max-width: 400px;
+    }
+    .hdrow {
+        max-width: 400px;
+    }
+    .burger {
+        right: 100px;
+    }
+    .arrow {
+        right: 5%;
+    }
+    .slider_text, .big_text {
+        margin-top: 40px;
+        font-size: 36px;
+    }
+    .slider_small_text {
+        width: 100%;
+    }
+    .slider_item1, .slider_item2, .slider_item3 {
+        height: 480px;
+    }
+
+
+
+@media (max-width: 430px) {
+    .row {
+        max-width: 300px;
+    }
+    .hdrow {
+        max-width: 300px;
+    }
+    .slider_text, .big_text {
+        font-size: 26px;
+        margin-top: 30px;
+    }
+    .small_text, .slider_small_text {
+        font-size: 15px;
+    }
+    .fos_header, .slider_title {
+        font-size: 26px;
+    }
+    .fos_info {
+        font-size: 15px;
+    }
+    .policy {
+        font-size: 15px;
+    }
+    .contacts_adress, .contacts_email, .contacts_reference, .contacts_ref_item {
+        font-size: 15px;
+    }
 
 }
